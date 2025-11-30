@@ -26,3 +26,4 @@ def chat_endpoint(user_request: UserRequest):
     constant_reply = "I am a simple bot. I always say this."
     
     return {"response": constant_reply}
+
