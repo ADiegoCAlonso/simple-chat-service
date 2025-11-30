@@ -1,0 +1,20 @@
+*.DS_Store
+
+# Exclude the virtual environment from the Docker build context
+venv/
+.venv/
+
+# Don't send git metadata to the Docker daemon
+.git
+
+# Exclude sensitive environment files that are added during runtime
+.env
+
+# Exclude local editor files
+.vscode/
+.idea/
+
+# Exclude any locally generated build artifacts
+**/__pycache__/
+**/*.pyc
+
